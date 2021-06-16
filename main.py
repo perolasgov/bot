@@ -2,6 +2,7 @@ from os import read, write
 import tweepy
 import time
 import random
+heroku create myapp --buildpack heroku/python
 
 api_key = 'mhLHPEJiBRYa0laznFhom4PLi'
 api_secret_key = 'GQufLwynbAiI2vaPVeaAB5yGFMnpttXPK2bVMVr9SwjgbVHt9s'
